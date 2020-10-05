@@ -54,7 +54,7 @@ The following is also true:
 
 **Exercise:** What does the above CSS example do?
 
-<details>
+<details style="max-width: 700px; margin: auto">
 
 <summary>
   Check your answers!
