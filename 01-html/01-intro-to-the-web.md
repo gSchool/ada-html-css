@@ -155,6 +155,86 @@ Front-end Development describes...
 
 <!-- ======================= END CHALLENGE ======================= -->
 
+<!-- >>>>>>>>>>>>>>>>>>>>>> BEGIN CHALLENGE >>>>>>>>>>>>>>>>>>>>>> -->
+<!-- Replace everything in square brackets [] and remove brackets  -->
+
+### !challenge
+
+* type: multiple-choice
+* id: 1445bc2a-6ac7-44b2-b3d7-0785926ddcb9
+* title: Back-end Development describes
+* points: 1
+* topics: html/css
+
+##### !question
+
+Back-end Development describes...
+
+##### !end-question
+
+##### !options
+
+* Writing code which executes on the **server.**
+* Writing code which executes in the **browser.**
+* Writing code which executes **both** on the browser and server.
+
+##### !end-options
+
+##### !answer
+
+* Writing code which executes on the **server.**
+
+##### !end-answer
+
+<!-- other optional sections -->
+<!-- !hint - !end-hint (markdown, users can see after a failed attempt) -->
+<!-- !rubric - !end-rubric (markdown, instructors can see while scoring a checkpoint) -->
+<!-- !explanation - !end-explanation (markdown, students can see after answering correctly) -->
+
+### !end-challenge
+
+<!-- ======================= END CHALLENGE ======================= -->
+
+<!-- >>>>>>>>>>>>>>>>>>>>>> BEGIN CHALLENGE >>>>>>>>>>>>>>>>>>>>>> -->
+<!-- Replace everything in square brackets [] and remove brackets  -->
+
+### !challenge
+
+* type: multiple-choice
+* id: 102861b2-b7f4-4fda-995e-92ff99f135bf
+* title: Full Stack Development describes
+* points: 1
+* topics: html/css
+
+##### !question
+
+Full Stack Development describes...
+
+##### !end-question
+
+##### !options
+
+* Writing code which executes on the **server.**
+* Writing code which executes in the **browser.**
+* Writing code which executes **both** on the browser and server.
+
+##### !end-options
+
+##### !answer
+
+* Writing code which executes **both** on the browser and server.
+
+##### !end-answer
+
+<!-- other optional sections -->
+<!-- !hint - !end-hint (markdown, users can see after a failed attempt) -->
+<!-- !rubric - !end-rubric (markdown, instructors can see while scoring a checkpoint) -->
+<!-- !explanation - !end-explanation (markdown, students can see after answering correctly) -->
+
+### !end-challenge
+
+<!-- ======================= END CHALLENGE ======================= -->
+
 ## 🔑 Key Takeaway
 
 There's a lot to web development and web!
