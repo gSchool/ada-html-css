@@ -113,6 +113,48 @@ Try inspecting the code on some of these websites!
 
 We will absolutely get deeper into these tools soon enough, but for now, we'll use it to prove to ourselves that we can see _something_.
 
+## Comprehension Questions
+
+<!-- >>>>>>>>>>>>>>>>>>>>>> BEGIN CHALLENGE >>>>>>>>>>>>>>>>>>>>>> -->
+<!-- Replace everything in square brackets [] and remove brackets  -->
+
+### !challenge
+
+* type: multiple-choice
+* id: 79187cd4-ddc2-46d1-8c04-8ec253709f15
+* title: Front-End-Development
+* points: 1
+* topics: html/css
+
+##### !question
+
+Front-end Development describes...
+
+##### !end-question
+
+##### !options
+
+* Writing code which executes on the **server.**
+* Writing code which executes in the **browser.**
+* Writing code which executes **both** on the browser and server.
+
+##### !end-options
+
+##### !answer
+
+* Writing code which executes in the **browser.**
+
+##### !end-answer
+
+<!-- other optional sections -->
+<!-- !hint - !end-hint (markdown, users can see after a failed attempt) -->
+<!-- !rubric - !end-rubric (markdown, instructors can see while scoring a checkpoint) -->
+<!-- !explanation - !end-explanation (markdown, students can see after answering correctly) -->
+
+### !end-challenge
+
+<!-- ======================= END CHALLENGE ======================= -->
+
 ## 🔑 Key Takeaway
 
 There's a lot to web development and web!
