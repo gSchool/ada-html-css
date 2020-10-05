@@ -114,7 +114,7 @@ It should have the following attributes:
 1. Observe that the styles are not applied
 1. Change your HTML page so that it loads your external stylesheet. Make sure it is in the `<head>` tag, and not the `<body>`
 1. Refresh your page and observe the styles being applied
-1. If they are not applied, check the following with a neighbor:
+2. If they are not applied, check the following:
     - The link tag in the head of the HTML file is going to the right relative path (where is your `index.html` located in relationship to your `style.css` file?)
     - Your CSS syntax is valid, and is targeting elements that exist
 
