@@ -238,7 +238,7 @@ Challenges:
 
 ## Validate your HTML
 
-HTML and browsers that run HTML with broken HTML will not throw exceptions or errors like Ruby will. We can write broken HTML code and nothing will stop us from rendering it-- the browser will do its best to interpret any given HTML.
+HTML and browsers that run HTML with broken HTML will not throw exceptions or errors like Ruby will. **We can write broken HTML code and nothing will stop us from rendering it**-- the browser will do its best to interpret any given HTML.
 
 Validating web documents is an important step which can help improve and ensure their quality. Use this link to see if your HTML is following proper HTML syntax: [Markup Validation Service](https://validator.w3.org/nu/#textarea).
 
