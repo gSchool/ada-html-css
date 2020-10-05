@@ -1,6 +1,9 @@
 # CSS {  display: intro; }
 
 ## 📚 Learning Goals 📚
+
+By the end of this lesson we should be able to...
+
 - Identify parts of CSS Syntax
 - Apply CSS styles to HTML
 - Use selectors to target specific elements to add custom style
