@@ -35,10 +35,12 @@ Below are tags that group elements together.
 
   <main></main>
 ```
+
 **Think, Pair, Share**
 Take some time to research how to use each of the above tags. Then discuss with your neighbor(s). And then high five each other.
 
 ## Organize Content with Sectioning Elements
+
 Sectioning elements wrap around the elements we have already been working with. Organizing elements into sectioning elements will also become useful as we start to style the layout of our webpages.
 
 Here are a couple of diagrams of how these sectioning elements might be laid out on a webpage.   
@@ -47,6 +49,7 @@ Here are a couple of diagrams of how these sectioning elements might be laid out
 
 
 ## Element Relationships
+
 When elements become nested inside of each other they start to form relationships.
 - An element that is inside of another is a _child_ element
 - The element wrapping a child is its _parent_
@@ -75,6 +78,7 @@ The relationship tree above is modeled from the following code:
 
 
 ### Draw a relationship tree for the HTML code below:
+
 ```html
   <body>
 
@@ -128,6 +132,7 @@ The relationship tree above is modeled from the following code:
 ```
 
 ## Vocab ✅
+
   - Semantic
   - Sectioning
   - Parent
