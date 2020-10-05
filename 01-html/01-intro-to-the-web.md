@@ -53,7 +53,7 @@ We can reframe our understanding of the request-response cycle in this way. When
 
 The web server who receives that request processes it, and then sends back a response. We've seen through APIs responses that come back as JSON. These web servers will give back a response that is something the browser can display as a website.
 
-<details>
+<details style="padding: 2rem 3rem;">
   <summary>
     With this in mind, let's return to an earlier question: why would front-end development, or code that executes from the browser, be called "client-side," and why would back-end development, or code that executes from a web server, be called "server-side"?
   </summary>
