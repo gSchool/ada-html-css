@@ -18,3 +18,8 @@ Standards:
         Type: Lesson
         UID: 3b94e3163809d3cd8661573e1b0bb86b
         Path: /01-html/01-intro-to-the-web.md
+      -
+        Type: Lesson
+        UID: a96f95ed-6df9-464f-8810-4cb539fe7d15
+        Path: /01-html/02-intro-to-html.md
+
