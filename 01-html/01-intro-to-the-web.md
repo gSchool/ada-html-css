@@ -37,7 +37,7 @@ A full-stack developer whose responsibility is to work on both the front-end and
 
 In what context have we defined things as client vs. server?
 
-Discuss with your neighbor your hypothesis, and we'll return to this question later.
+Write down your hypothesis, and we'll return to this question later.
 
 ### Nota Bene: "Front-end"
 
