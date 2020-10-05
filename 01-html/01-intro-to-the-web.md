@@ -1,5 +1,7 @@
 # 🌐 Intro to the web 🌐
 
+<iframe src="https://adaacademy.hosted.panopto.com/Panopto/Pages/Embed.aspx?pid=3b1f629d-9d81-4c52-9808-ac4b014e95d7&autoplay=false&offerviewer=true&showtitle=true&showbrand=false&start=0&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay"></iframe>
+
 ## 📚 Learning Goals 📚
 
 - Differentiate between a static and dynamic website
