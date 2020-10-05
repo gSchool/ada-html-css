@@ -32,8 +32,12 @@ Below are tags that group elements together.
 
   <main></main>
 ```
+
 **Think, Pair, Share**
+
 Take some time to research how to use each of the above tags. Then discuss with your neighbor(s). And then high five each other.
+
+A good way to search for these tags is to type into Google:  `MDN <ELEMENT> tag`, for example `MDN aside tag`.  This way you will get the Mozilla Developer Network as your 1st result.
 
 ## Organize Content with Sectioning Elements
 Sectioning elements wrap around the elements we have already been working with. Organizing elements into sectioning elements will also become useful as we start to style the layout of our webpages.
