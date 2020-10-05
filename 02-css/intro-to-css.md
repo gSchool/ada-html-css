@@ -55,14 +55,12 @@ The following is also true:
 **Exercise:** What does the above CSS example do?
 
 <details style="max-width: 700px; margin: auto">
+  <summary>
+    Check your answers!
+  </summary>
 
-<summary>
-  Check your answers!
-</summary>
-
-1. The first rule-set selects all `h1` elements on the page. It says that their color (text color) should be orange. It says that their typeface is Helvetica, or a sans-serif typeface if Helvetica is not available. (Details for this are determined by the `font-family` property)
-2. The second rule-set selects all `p` elements on the page. It says that their text color should be gray. It says that all of the text inside of these elements should be justify-aligned.
-
+  1. The first rule-set selects all `h1` elements on the page. It says that their color (text color) should be orange. It says that their typeface is Helvetica, or a sans-serif typeface if Helvetica is not available. (Details for this are determined by the `font-family` property)
+  2. The second rule-set selects all `p` elements on the page. It says that their text color should be gray. It says that all of the text inside of these elements should be justify-aligned.
 </details>
 
 ### Code Style
