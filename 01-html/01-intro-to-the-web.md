@@ -47,7 +47,7 @@ There is a recent and current trend of JavaScript development that makes the def
 
 In order for us to access a website, its files need to be stored on a computer that is constantly online. Computers and machines always kept online whose responsibility is to serve websites are [web servers](https://en.wikipedia.org/wiki/Server_farm).
 
-![HTTP Response and Request](imgs/web-server-diagram.svg) ([Source](https://mdn.mozillademos.org/files/8659/web-server.svg))
+![HTTP Response and Request](imgs/web-server-diagram.png) ([Source](https://mdn.mozillademos.org/files/8659/web-server.svg))
 
 We can reframe our understanding of the request-response cycle in this way. When we enter a URL into our browser and then press "enter", we are making a `GET` request, whose path is the URL.
 
