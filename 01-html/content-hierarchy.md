@@ -1,5 +1,6 @@
 # Sectioning Elements
 
+<iframe src="https://adaacademy.hosted.panopto.com/Panopto/Pages/Embed.aspx?pid=16809b8f-c1a0-41d2-be36-ac4b0170e4e8&autoplay=false&offerviewer=true&showtitle=true&showbrand=false&start=0&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay"></iframe>
 
 ## 📚 Learning Goals 📚
 
