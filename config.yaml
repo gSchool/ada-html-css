@@ -8,8 +8,8 @@
 ---
 Standards:
   -
-    Title: Html
-    Description: Html
+    Title: Html & CSS
+    Description: Introduction to static web development with HTML & CSS
     UID: 3135f4019bee015e2d1ae7f77f9f3f64
     SuccessCriteria:
       - success criteria
