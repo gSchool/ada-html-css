@@ -131,6 +131,10 @@ The relationship tree above is modeled from the following code:
   - Child
   - Sibling
 
+## Key Takeaway 
+
+Sectioning elements can be used to provide *semantic meaning* to the content they enclose.  Using the approprate sectioning element is important to provide clues for screen reading applications and to other developers reading your code.  When an HTML element encloses another tag it becomes that tag's *parent*.  The enclosed tag is called the *child element*.  When two elements share the same parent they are called *siblings*.  You can draw this type of relationship as a tree structure.
+
 ### Additional Resources
 
 - [Treehouse Blog Post](http://blog.teamtreehouse.com/use-html5-sectioning-elements) (freely available)
