@@ -135,6 +135,163 @@ The relationship tree above is modeled from the following code:
  </body>
 ```
 
+<!-- >>>>>>>>>>>>>>>>>>>>>> BEGIN CHALLENGE >>>>>>>>>>>>>>>>>>>>>> -->
+<!-- Replace everything in square brackets [] and remove brackets  -->
+
+### !challenge
+
+* type: multiple-choice
+* id: 9cc12488-0a97-459a-a1c3-66139e5849df
+* title: Relationships
+* points: 1
+* topics: html
+
+##### !question
+
+```html
+<footer>
+  <ul>
+    <li><a href="#">Contact</a></li>
+    <li><a href="#">Careers</a></li>
+  </ul>
+</footer>
+```
+
+Looking at the above snippet of code from the example, the `ul` element is the ___ of the `li` elements.
+
+##### !end-question
+
+##### !options
+
+* Child
+* Parent
+* Sibling
+* Unrelated element
+
+##### !end-options
+
+##### !answer
+
+* Parent
+
+##### !end-answer
+
+<!-- other optional sections -->
+<!-- !hint - !end-hint (markdown, users can see after a failed attempt) -->
+<!-- !rubric - !end-rubric (markdown, instructors can see while scoring a checkpoint) -->
+<!-- !explanation - !end-explanation (markdown, students can see after answering correctly) -->
+
+### !end-challenge
+
+<!-- ======================= END CHALLENGE ======================= -->
+
+<!-- >>>>>>>>>>>>>>>>>>>>>> BEGIN CHALLENGE >>>>>>>>>>>>>>>>>>>>>> -->
+<!-- Replace everything in square brackets [] and remove brackets  -->
+
+### !challenge
+
+* type: multiple-choice
+* id: a61b694d-93ae-48d9-b507-80c60a527b85
+* title: Relationships
+* points: 1
+* topics: html
+
+##### !question
+
+```html
+<footer>
+  <ul>
+    <li><a href="#">Contact</a></li>
+    <li><a href="#">Careers</a></li>
+  </ul>
+</footer>
+```
+
+Looking at the above snippet of code from the example, the `ul` element is a ___ of the `footer` element.
+
+##### !end-question
+
+##### !options
+
+* Child
+* Parent
+* Sibling
+* Unrelated element
+
+##### !end-options
+
+##### !answer
+
+* Child
+
+##### !end-answer
+
+<!-- other optional sections -->
+<!-- !hint - !end-hint (markdown, users can see after a failed attempt) -->
+<!-- !rubric - !end-rubric (markdown, instructors can see while scoring a checkpoint) -->
+<!-- !explanation - !end-explanation (markdown, students can see after answering correctly) -->
+
+### !end-challenge
+
+<!-- ======================= END CHALLENGE ======================= -->
+
+<!-- ======================= END CHALLENGE ======================= -->
+
+<!-- >>>>>>>>>>>>>>>>>>>>>> BEGIN CHALLENGE >>>>>>>>>>>>>>>>>>>>>> -->
+<!-- Replace everything in square brackets [] and remove brackets  -->
+
+### !challenge
+
+* type: multiple-choice
+* id: 5eee9c42-a3e3-4954-a378-4c624ec2ba27
+* title: Relationships
+* points: 1
+* topics: html
+
+##### !question
+
+```html
+<footer>
+  <ul>
+    <li><a href="#">Contact</a></li>
+    <li><a href="#">Careers</a></li>
+  </ul>
+</footer>
+```
+
+Looking at the above snippet of code from the example, the two `a` or anchor tags are _____ to each other
+
+##### !end-question
+
+##### !options
+
+* Child
+* Parent
+* Sibling
+* Unrelated elements
+
+##### !end-options
+
+##### !answer
+
+* Unrelated elements
+
+##### !end-answer
+
+<!-- other optional sections -->
+<!-- !hint - !end-hint (markdown, users can see after a failed attempt) -->
+<!-- !rubric - !end-rubric (markdown, instructors can see while scoring a checkpoint) -->
+##### !explanation 
+
+The two elements **do not** share the same parent, so they are unrelated in this context, even though they share the same grandparent.
+
+##### !end-explanation
+
+### !end-challenge
+
+<!-- ======================= END CHALLENGE ======================= -->
+
+
 ## Vocab ✅
 
   - Semantic
