@@ -1,5 +1,7 @@
 # CSS {  display: intro; }
 
+<iframe src="https://adaacademy.hosted.panopto.com/Panopto/Pages/Embed.aspx?pid=e6da5131-2f1a-4021-a25f-ac4b0188ab35&autoplay=false&offerviewer=true&showtitle=true&showbrand=false&start=0&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay"></iframe>
+
 ## 📚 Learning Goals 📚
 
 By the end of this lesson we should be able to...
