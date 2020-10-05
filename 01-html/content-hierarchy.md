@@ -57,6 +57,7 @@ A visual diagram of elements relationships to each other:
 ![Element Relationship Diagram](imgs/content-hierarchy-diagram.png)
 
 The relationship tree above is modeled from the following code:
+
 ```html
 <body>
   <header>
@@ -76,6 +77,7 @@ The relationship tree above is modeled from the following code:
 
 
 ### Draw a relationship tree for the HTML code below:
+
 ```html
   <body>
 
@@ -129,6 +131,7 @@ The relationship tree above is modeled from the following code:
 ```
 
 ## Vocab ✅
+
   - Semantic
   - Sectioning
   - Parent
