@@ -2,8 +2,11 @@
 
 
 ## 📚 Learning Goals 📚
-- Can organize content using semantic sectioning tags
-- Know why we organize content with semantic sectioning tags
+
+By the end of this lesson we should be able to...
+
+- Organize content using semantic sectioning tags
+- Explain why we organize content with semantic sectioning tags
 
 ## What are Sectioning Elements
 HTML has sectioning elements that allow you to organize your HTML document into logical topical sections.
@@ -40,6 +43,7 @@ Take some time to research how to use each of the above tags. Then discuss with 
 A good way to search for these tags is to type into Google:  `MDN <ELEMENT> tag`, for example `MDN aside tag`.  This way you will get the Mozilla Developer Network as your 1st result.
 
 ## Organize Content with Sectioning Elements
+
 Sectioning elements wrap around the elements we have already been working with. Organizing elements into sectioning elements will also become useful as we start to style the layout of our webpages.
 
 Here are a couple of diagrams of how these sectioning elements might be laid out on a webpage.   
@@ -48,6 +52,7 @@ Here are a couple of diagrams of how these sectioning elements might be laid out
 
 
 ## Element Relationships
+
 When elements become nested inside of each other they start to form relationships.
 - An element that is inside of another is a _child_ element
 - The element wrapping a child is its _parent_
@@ -137,6 +142,10 @@ The relationship tree above is modeled from the following code:
   - Parent
   - Child
   - Sibling
+
+## Key Takeaway 
+
+Sectioning elements can be used to provide *semantic meaning* to the content they enclose.  Using the approprate sectioning element is important to provide clues for screen reading applications and to other developers reading your code.  When an HTML element encloses another tag it becomes that tag's *parent*.  The enclosed tag is called the *child element*.  When two elements share the same parent they are called *siblings*.  You can draw this type of relationship as a tree structure.
 
 ### Additional Resources
 
