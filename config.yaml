@@ -17,9 +17,13 @@ Standards:
       -
         Type: Lesson
         UID: 3b94e3163809d3cd8661573e1b0bb86b
-        Path: /01-html/01-intro-to-the-web.md
+        Path: /01-html/intro-to-the-web.md
       -
         Type: Lesson
         UID: a96f95ed-6df9-464f-8810-4cb539fe7d15
-        Path: /01-html/02-intro-to-html.md
+        Path: /01-html/intro-to-html.md
+      -
+        Type: Lesson
+        UID: 693894b9-3171-44b8-b93a-af065e3c9b27
+        Path: /01-html/content-hierarchy.md
 
