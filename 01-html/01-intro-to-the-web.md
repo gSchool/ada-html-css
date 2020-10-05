@@ -55,7 +55,7 @@ The web server who receives that request processes it, and then sends back a res
 
 <details style="max-width: 700px; margin: auto;">
   <summary>
-    With this in mind, let's return to an earlier question: why would front-end development, or code that executes from the browser, be called "client-side," and why would back-end development, or code that executes from a web server, be called "server-side"?
+    With this in mind, let's return to an earlier question: *Why would front-end development, or code that executes from the browser, be called "client-side," and why would back-end development, or code that executes from a web server, be called "server-side"?*
   </summary>
 
   The request-response cycle defines that the client makes a request, and the server receives the request and gives back a response.
