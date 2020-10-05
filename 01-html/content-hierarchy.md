@@ -2,8 +2,11 @@
 
 
 ## 📚 Learning Goals 📚
-- Can organize content using semantic sectioning tags
-- Know why we organize content with semantic sectioning tags
+
+By the end of this lesson we should be able to...
+
+- Organize content using semantic sectioning tags
+- Explain why we organize content with semantic sectioning tags
 
 ## What are Sectioning Elements
 HTML has sectioning elements that allow you to organize your HTML document into logical topical sections.
