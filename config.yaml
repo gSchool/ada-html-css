@@ -41,3 +41,7 @@ Standards:
         Type: Lesson
         UID: 3674925e-13df-45c4-9eed-757e98ec20b2
         Path: /02-css/intro-to-css.md
+      -
+        Type: Lesson
+        UID: c3be408f-5144-4fb4-8f78-1b5a80e58673
+        Path: /02-css/layout-with-css-grid.md
