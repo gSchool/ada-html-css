@@ -120,6 +120,8 @@ You have to look at the minimum space spanning from the top to the bottom of the
   <summary>
     How many rows are there in the layout? How many are defined on the _grid container_?
   </summary>
+  
+  5 rows
 </details>
 
 <details style="max-width: 700px; margin: auto;">
