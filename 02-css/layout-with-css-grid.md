@@ -26,9 +26,9 @@ Other solutions to layout include:
   - Bootstrap
   - Foundation
 - Using combinations of other CSS properties
-  - [Layouts using Display](archived/layout-display.md)
-  - [Layouts using Floats](archived/layout-floats.md)
-  - [Layouts using Positioning](archived/layout-positioning.md)
+  - [Layouts using Display]([archived/layout-display.md](https://github.com/Ada-Developers-Academy/textbook-curriculum/blob/master/05-html-css/archived/layout-display.md))
+  - [Layouts using Floats]([archived/layout-floats.md](https://github.com/Ada-Developers-Academy/textbook-curriculum/blob/master/05-html-css/archived/layout-floats.md))
+  - [Layouts using Positioning]([archived/layout-positioning.md](https://github.com/Ada-Developers-Academy/textbook-curriculum/blob/master/05-html-css/archived/layout-positioning.md))
 
 ## Rules for Setting Up CSS Grid
 
