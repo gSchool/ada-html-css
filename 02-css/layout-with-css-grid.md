@@ -108,10 +108,31 @@ You have to look at the minimum space spanning from the top to the bottom of the
 
 <!-- ======================= END CHALLENGE ======================= -->
 
-  - Are all columns equally sized? In CSS Grid, not every column needs to be the same width
-- How many rows are there in the layout? How many are defined on the _grid container_?
-  - Are all rows equally sized? In CSS Grid, not every row needs to be the same height
-- For three different grid items, answer the following:
+<details style="max-width: 700px; margin: auto;">
+  <summary>
+    Are all columns equally sized? In CSS Grid, not every column needs to be the same width
+  </summary>
+
+  The columns are **not** all the same size.
+</details>
+
+<details style="max-width: 700px; margin: auto;">
+  <summary>
+    How many rows are there in the layout? How many are defined on the _grid container_?
+  </summary>
+</details>
+
+<details style="max-width: 700px; margin: auto;">
+  <summary>
+    Are all rows equally sized? In CSS Grid, not every row needs to be the same height
+  </summary>
+
+  No each row is not the same size.
+</details>
+
+
+**Pick three different grid items, answer the following:**
+
   - What column line # does this grid item start at?
   - What column line # does this grid item end at?
   - How many columns does this grid item span?
