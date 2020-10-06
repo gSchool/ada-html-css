@@ -17,11 +17,13 @@ By the end of this lesson, students should be able to...
 CSS Grid Layout is a way to determine page layout along a two-dimensional grid (with X and Y axes) with major browser support "out of the box."
 
 CSS Grid has the following advantages:
+
 1. More applicable than teaching a specific CSS library
 1. Browser compatibility
 1. Promotes responsive design/relative units for layout
 
 Other solutions to layout include:
+
 - Proprietary implementations of grids in CSS
   - Bootstrap
   - Foundation
@@ -151,6 +153,13 @@ We answer all of those questions with any property beginning with the phrase "gr
 
 For the following section we will be using [this example on Codepen.](https://codepen.io/adadev/pen/bvbKQX?editors=1100) Follow along, and comment and uncomment sections as we go through.
 
+<p class="codepen" data-height="265" data-theme-id="light" data-default-tab="css,result" data-user="adadev" data-slug-hash="bvbKQX" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="CSS Grid: Introduce Grid Template">
+  <span>See the Pen <a href="https://codepen.io/adadev/pen/bvbKQX">
+  CSS Grid: Introduce Grid Template</a> by Ada Developers Academy (<a href="https://codepen.io/adadev">@adadev</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+
 #### Grid Template Columns, Grid Template Rows
 
 To define how many columns there are and what size each column is, you use the CSS attribute `grid-template-columns` so that _it applies to your grid container_. For every column, you provide a value for width, separated by **spaces, with no punctuation**.
@@ -197,7 +206,17 @@ CSS Grid lets us use one specific unit of measurement that we can't use anywhere
 
 Fractional units are relative units: After all other kinds of units are measured, fractional units take the remaining space and calculate their size relative to other fractional units. In other words, they form ratios.
 
-Consider [this Codepen using fractional units](https://codepen.io/adadev/pen/xWKJdz?editors=1100) on different definitions of `grid-template-columns` on different grid containers. Answer the following questions:
+Consider [this Codepen using fractional units](https://codepen.io/adadev/pen/xWKJdz?editors=1100) on different definitions of `grid-template-columns` on different grid containers. 
+
+<p class="codepen" data-height="265" data-theme-id="light" data-default-tab="css,result" data-user="adadev" data-slug-hash="xWKJdz" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="CSS Grid: Fractional Units">
+  <span>See the Pen <a href="https://codepen.io/adadev/pen/xWKJdz">
+  CSS Grid: Fractional Units</a> by Ada Developers Academy (<a href="https://codepen.io/adadev">@adadev</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+
+Answer the following questions:
+
 - Which of these examples mixes fractional units and other units?
 - Which of these creates equally sized columns?
 - Which of these creates three columns?
@@ -206,6 +225,13 @@ Consider [this Codepen using fractional units](https://codepen.io/adadev/pen/xWK
 ## Grid Item
 
 Now we can manipulate our grid items! For the following examples, we'll be using [this Codepen](https://codepen.io/adadev/pen/yKBqQP?editors=1100).
+
+<p class="codepen" data-height="265" data-theme-id="light" data-default-tab="css,result" data-user="adadev" data-slug-hash="yKBqQP" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="CSS Grid - Grid Item start and end">
+  <span>See the Pen <a href="https://codepen.io/adadev/pen/yKBqQP">
+  CSS Grid - Grid Item start and end</a> by Ada Developers Academy (<a href="https://codepen.io/adadev">@adadev</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
 
 ### Using Start and End
 
@@ -243,6 +269,13 @@ We define the start line and end line of an item's row using `grid-row-start` an
 ```
 
 **Practice:** Spend some time uncommenting and altering the `-start` and `-end` properties in our [example Codepen for this section](https://codepen.io/adadev/pen/yKBqQP?editors=1100).
+
+<p class="codepen" data-height="265" data-theme-id="light" data-default-tab="css,result" data-user="adadev" data-slug-hash="yKBqQP" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="CSS Grid - Grid Item start and end">
+  <span>See the Pen <a href="https://codepen.io/adadev/pen/yKBqQP">
+  CSS Grid - Grid Item start and end</a> by Ada Developers Academy (<a href="https://codepen.io/adadev">@adadev</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
 
 ### A shortcut: grid-column and grid-row
 
@@ -324,11 +357,18 @@ The result should look something like this:
 
 And here it is on a [Codepen.](https://codepen.io/adadev/pen/zWOaNB)
 
+<p class="codepen" data-height="265" data-theme-id="light" data-default-tab="css,result" data-user="adadev" data-slug-hash="zWOaNB" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="CSS Grid - Realistic Example">
+  <span>See the Pen <a href="https://codepen.io/adadev/pen/zWOaNB">
+  CSS Grid - Realistic Example</a> by Ada Developers Academy (<a href="https://codepen.io/adadev">@adadev</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+
 ## Subjects Not Covered In This Lecture
 
-- Grid Template Areas
-- Grid Tracks
-- Gutters
+- [Grid Template Areas](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-areas)
+- [Grid Tracks](https://developer.mozilla.org/en-US/docs/Glossary/Grid_Tracks)
+- [Gutters](https://developer.mozilla.org/en-US/docs/Glossary/Gutters)
 
 CSS Grid is a deep subject with a lot of features! The above features would allow for further customization of your grid, but aren't necessary to make a robust layout.
 
@@ -345,6 +385,7 @@ A lot of information and advice on the Internet uses CSS that does not use CSS G
 To use CSS Grid as a built in solution for making a 2-dimensional layout, you need to define a *grid container* with `display: grid;`. The grid container's `grid-template` property will only affect its direct children, or the *grid items*.
 
 ## Resources
+
 - [W3 Schools (source of the grid image)](https://www.w3schools.com/css/css_grid.asp)
 - Play around with the implementation of the weird abstract example in the Practice section [on Codepen](https://codepen.io/adadev/pen/oqvdrB?editors=1100)
 - [Article source for "Realistic example"](https://developers.google.com/web/updates/2017/01/css-grid)
