@@ -65,7 +65,7 @@ What does this code do? It selects **every** element on the HTML page that has t
 
 More precisely, this CSS selects any element that has `class="page-title"`.
 
-<details>
+<details style="max-width: 700px; margin: auto;">
   <summary>
     Note: Forgetting the period will break the CSS. Click here for an example.
   </summary>
@@ -80,7 +80,6 @@ More precisely, this CSS selects any element that has `class="page-title"`.
   ```
 
   It selects **every** element on the HTML page that **is a `<page-title>` element**, and it gives it a text color of gray and a text size of 2.5rem. If you didn't know, the `<page-title>` element doesn't exist... so it's likely that this CSS rule-set does nothing.
-
 </details>
 
 ### Elements with Multiple Classes
@@ -169,7 +168,7 @@ p {
 }
 ```
 
-<details>
+<details style="max-width: 700px; margin: auto">
   <summary>
     Which CSS rule-sets apply to the HTML element defined above?
   </summary>
@@ -199,7 +198,7 @@ a {
 }
 ```
 
-<details>
+<details style="max-width: 700px; margin: auto">
   <summary>
     Check your answer against ours
   </summary>
@@ -211,8 +210,147 @@ a {
   In this case, the order of classes does not matter.
 
   `<a id="admin-email" class="email-link info" href="mailto:admin@whoknows.com">Some Link Text</a>`
-  
 </details>
+
+## Questions
+
+<!-- >>>>>>>>>>>>>>>>>>>>>> BEGIN CHALLENGE >>>>>>>>>>>>>>>>>>>>>> -->
+<!-- Replace everything in square brackets [] and remove brackets  -->
+
+### !challenge
+
+* type: multiple-choice
+* id: 52c21e70-7a34-4ccc-bb24-1e04917fcd55
+* title: Which HTML Element is Styled
+* points: 1
+* topics: html, css
+
+##### !question
+
+Which html element is styled by the following selector?
+
+```css
+.important {
+  color: red;
+  font-weight: bolder;
+}
+```
+
+##### !end-question
+
+##### !options
+
+* `<p>first choice</p>
+* `<p id="important">second choice</p>`
+* `<p class="important">third choice</p>`
+* All of the above
+
+##### !end-options
+
+##### !answer
+
+* `<p class="important">third choice</p>`
+
+##### !end-answer
+
+<!-- other optional sections -->
+<!-- !hint - !end-hint (markdown, users can see after a failed attempt) -->
+<!-- !rubric - !end-rubric (markdown, instructors can see while scoring a checkpoint) -->
+<!-- !explanation - !end-explanation (markdown, students can see after answering correctly) -->
+
+### !end-challenge
+
+<!-- ======================= END CHALLENGE ======================= -->
+
+### !challenge
+
+* type: multiple-choice
+* id: 279f64db-a566-4ce1-8ca7-f9d724fa19bb
+* title: Which HTML Element is Styled
+* points: 1
+* topics: html, css
+
+##### !question
+
+Which html element is styled by the following selector?
+
+```css
+p {
+  color: red;
+  font-weight: bolder;
+}
+```
+
+##### !end-question
+
+##### !options
+
+* `<p>first choice</p>
+* `<p id="important">second choice</p>`
+* `<p class="important">third choice</p>`
+* All of the above
+
+##### !end-options
+
+##### !answer
+
+* All of the above
+
+##### !end-answer
+
+<!-- other optional sections -->
+<!-- !hint - !end-hint (markdown, users can see after a failed attempt) -->
+<!-- !rubric - !end-rubric (markdown, instructors can see while scoring a checkpoint) -->
+<!-- !explanation - !end-explanation (markdown, students can see after answering correctly) -->
+
+### !end-challenge
+
+<!-- ======================= END CHALLENGE ======================= -->
+
+### !challenge
+
+* type: multiple-choice
+* id: 420a2dba-f729-490c-8e81-53a7afd0a652
+* title: Which HTML Element is Styled
+* points: 1
+* topics: html, css
+
+##### !question
+
+Which html element is styled by the following selector?
+
+```css
+#important {
+  color: red;
+  font-weight: bolder;
+}
+```
+
+##### !end-question
+
+##### !options
+
+* `<p>first choice</p>
+* `<p id="important">second choice</p>`
+* `<p class="important">third choice</p>`
+* All of the above
+
+##### !end-options
+
+##### !answer
+
+* `<p id="important">second choice</p>`
+
+##### !end-answer
+
+<!-- other optional sections -->
+<!-- !hint - !end-hint (markdown, users can see after a failed attempt) -->
+<!-- !rubric - !end-rubric (markdown, instructors can see while scoring a checkpoint) -->
+<!-- !explanation - !end-explanation (markdown, students can see after answering correctly) -->
+
+### !end-challenge
+
+<!-- ======================= END CHALLENGE ======================= -->
 
 ## 🔑 Key Takeaway
 
