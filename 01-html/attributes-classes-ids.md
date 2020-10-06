@@ -240,7 +240,7 @@ Which html element is styled by the following selector?
 
 ##### !options
 
-* `<p>first choice</p>
+* `<p>first choice</p>`
 * `<p id="important">second choice</p>`
 * `<p class="important">third choice</p>`
 * All of the above
@@ -285,7 +285,7 @@ p {
 
 ##### !options
 
-* `<p>first choice</p>
+* `<p>first choice</p>`
 * `<p id="important">second choice</p>`
 * `<p class="important">third choice</p>`
 * All of the above
@@ -330,7 +330,7 @@ Which html element is styled by the following selector?
 
 ##### !options
 
-* `<p>first choice</p>
+* `<p>first choice</p>`
 * `<p id="important">second choice</p>`
 * `<p class="important">third choice</p>`
 * All of the above
