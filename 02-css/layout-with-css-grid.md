@@ -417,3 +417,4 @@ To use CSS Grid as a built in solution for making a 2-dimensional layout, you ne
 - [W3 Schools (source of the grid image)](https://www.w3schools.com/css/css_grid.asp)
 - Play around with the implementation of the weird abstract example in the Practice section [on Codepen](https://codepen.io/adadev/pen/oqvdrB?editors=1100)
 - [Article source for "Realistic example"](https://developers.google.com/web/updates/2017/01/css-grid)
+- [Scrimba course on CSS Grid](https://scrimba.com/learn/R8PTE)
