@@ -4,7 +4,9 @@ Oh my!
 
 ## 📚 Learning Goals 📚
 
-- Know what an Attribute is
+By the end of this lesson we should be able to:
+
+- Identify an HTML attribute
 - Differentiate between ID and Classes
 - Identify when to use a Class or an ID
 
