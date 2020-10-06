@@ -397,9 +397,9 @@ And here it is on a [Codepen.](https://codepen.io/adadev/pen/zWOaNB)
 
 ## Subjects Not Covered In This Lecture
 
-- Grid Template Areas
-- Grid Tracks
-- Gutters
+- [Grid Template Areas](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-areas)
+- [Grid Tracks](https://developer.mozilla.org/en-US/docs/Glossary/Grid_Tracks)
+- [Gutters](https://developer.mozilla.org/en-US/docs/Glossary/Gutters)
 
 CSS Grid is a deep subject with a lot of features! The above features would allow for further customization of your grid, but aren't necessary to make a robust layout.
 
