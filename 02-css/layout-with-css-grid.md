@@ -407,8 +407,6 @@ CSS Grid is a deep subject with a lot of features! The above features would allo
 
 CSS Grid was introduced only in the past few years. Even so, *every modern browser supports CSS Grid*.
 
-Internet Explorer 11 requires specifying the browser prefix `-ms-display: grid;`.
-
 A lot of information and advice on the Internet uses CSS that does not use CSS Grid, even if CSS Grid may be a better solution for that problem.
 
 ## Conclusion
