@@ -57,7 +57,57 @@ Let's look at a slightly abstract example to practice counting columns and rows 
 
 Each rectangular block of color represents one grid item. Answer the following questions:
 
-- How many columns are there in the layout? How many are defined on the _grid container_?
+<!-- >>>>>>>>>>>>>>>>>>>>>> BEGIN CHALLENGE >>>>>>>>>>>>>>>>>>>>>> -->
+<!-- Replace everything in square brackets [] and remove brackets  -->
+
+### !challenge
+
+* type: number
+* id: 37e85892-25b0-458b-b93d-308eda30d724
+* title: How many columns are there in the layout?
+* decimal: 0
+* points: 1
+* topics: css, css-grid
+
+##### !question
+
+How many columns are there in the layout?
+
+##### !end-question
+
+##### !placeholder
+
+How many columns?
+
+##### !end-placeholder
+
+##### !answer
+
+9
+
+##### !end-answer
+
+<!-- other optional sections -->
+##### !hint
+
+How many smaller columns can span the entire height of the page.
+
+**Hint** It's more than 7 and less than 12 columns
+
+##### !end-hint
+<!-- !rubric - !end-rubric (markdown, instructors can see while scoring a checkpoint) -->
+##### !explanation
+
+You have to look at the minimum space spanning from the top to the bottom of the page.  Take a look at the grid solution below.  Note how each of the red lines highlight uninterrupted spans from the top to the bottom of the page.
+
+![Abstract CSS Grid Layout Answer](./imgs/css-grid-abstract-example-answer.png)
+
+##### !end-explanation
+
+### !end-challenge
+
+<!-- ======================= END CHALLENGE ======================= -->
+
   - Are all columns equally sized? In CSS Grid, not every column needs to be the same width
 - How many rows are there in the layout? How many are defined on the _grid container_?
   - Are all rows equally sized? In CSS Grid, not every row needs to be the same height
