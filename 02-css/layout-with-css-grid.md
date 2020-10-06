@@ -204,7 +204,6 @@ Let's take a look at one way we'd likely write this HTML, and its accompanying C
 }
 ```
 
-
 We've set up CSS Grid using `display: grid;` on our grid container, but we don't see it working yet.
 
 ## Grid Template
@@ -269,6 +268,7 @@ CSS Grid lets us use one specific unit of measurement that we can't use anywhere
 Fractional units are relative units: After all other kinds of units are measured, fractional units take the remaining space and calculate their size relative to other fractional units. In other words, they form ratios.
 
 Consider [this Codepen using fractional units](https://codepen.io/adadev/pen/xWKJdz?editors=1100) on different definitions of `grid-template-columns` on different grid containers. Answer the following questions:
+
 - Which of these examples mixes fractional units and other units?
 - Which of these creates equally sized columns?
 - Which of these creates three columns?
