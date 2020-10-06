@@ -98,7 +98,7 @@ How many smaller columns can span the entire height of the page.
 <!-- !rubric - !end-rubric (markdown, instructors can see while scoring a checkpoint) -->
 ##### !explanation
 
-You have to look at the minimum space spanning from the top to the bottom of the page.  Take a look at the grid solution below.  Note how each of the red lines highlight uninterrupted spans from the top to the bottom of the page.
+You have to look at the minimum space spanning from the top to the bottom of the page.  Take a look at the grid solution below.  We have highlighted in red the grid lines defined by the CSS.  For any vertical line in the grid it has to have a matching grid line.  This forms 9 columns.
 
 ![Abstract CSS Grid Layout Answer](./imgs/css-grid-abstract-example-answer.png)
 
