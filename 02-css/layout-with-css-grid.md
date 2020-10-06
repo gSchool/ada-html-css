@@ -23,8 +23,8 @@ CSS Grid has the following advantages:
 
 Other solutions to layout include:
 - Proprietary implementations of grids in CSS
-  - Bootstrap
-  - Foundation
+  - [Bootstrap](https://getbootstrap.com/docs/4.0/layout/grid/)
+  - [Foundation](https://get.foundation/sites/docs-v5/components/grid.html)
 - Using combinations of other CSS properties
   - [Layouts using Display](https://github.com/Ada-Developers-Academy/textbook-curriculum/blob/master/05-html-css/archived/layout-display.md)
   - [Layouts using Floats](https://github.com/Ada-Developers-Academy/textbook-curriculum/blob/master/05-html-css/archived/layout-floats.md)
