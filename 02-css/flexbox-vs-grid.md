@@ -1,6 +1,7 @@
 # Flexbox vs CSS Grid
 
 ## Learning Goals
+
 - Understand the strengths of both Flexbox & CSS Grid
 - Be able to decide when to use Flexbox or CSS Grid to solve layout issues
 
@@ -45,6 +46,7 @@ img {
   margin: .5em;
 }
 ```
+
 Flexbox causes the images will line up in the available space left-to-right.  When the screen runs out of space elements will flow to the next line.   In this way Flexbox is _responsive_, the items wrap as needed to fit the available space.  
 
 On a wide screen:
@@ -154,6 +156,7 @@ Ask yourself a couple of questions:
 1.  They work very well **together**.
 
 # Resources
+
 - [MDN Grid & Flexbox](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Relationship_of_Grid_Layout)
 - [The ultimate CSS battle: Grid vs Flexbox](https://hackernoon.com/the-ultimate-css-battle-grid-vs-flexbox-d40da0449faf)
 - [Does CSS Grid Replace Flexbox?](https://css-tricks.com/css-grid-replace-flexbox/)
