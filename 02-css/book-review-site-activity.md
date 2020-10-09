@@ -13,5 +13,5 @@ Before starting Wave 1, you should complete:
 * [Content Hierarchy](../01-html/content-hierarchy.md)
 
 Before starting Wave 2, you should complete:
-* [Intro to CSS](./intro-to-css)
+* [Intro to CSS](./intro-to-css.md)
 
