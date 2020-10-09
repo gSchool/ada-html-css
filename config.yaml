@@ -43,9 +43,22 @@ Standards:
         Path: /02-css/intro-to-css.md
       -
         Type: Lesson
+        UID: 6736c9e0-812b-47ef-9e96-4e3a93a04118
+        Path: /02-css/book-review-site-activity.md
+      -
+        Type: Lesson
         UID: 8640af9d-e8e5-4245-bc5b-0d70c58b9e4f
         Path: /02-css/scrimba-css-grid.md
       -
         Type: Lesson
         UID: c3be408f-5144-4fb4-8f78-1b5a80e58673
         Path: /02-css/layout-with-css-grid.md
+      -
+        Type: Lesson
+        UID: 9b9d4a6c-aa90-4a08-ae76-762714d68d09
+        Path: /02-css/flexbox-vs-grid.md
+      -
+        Type: Lesson
+        UID: e613f685-f033-4815-8bcc-97e22b7f5e31
+        Path: /02-css/css-layout-display.md
+
