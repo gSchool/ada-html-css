@@ -1,5 +1,7 @@
 # 🌐 Intro to the web 🌐
 
+<iframe src="https://adaacademy.hosted.panopto.com/Panopto/Pages/Embed.aspx?pid=3b1f629d-9d81-4c52-9808-ac4b014e95d7&autoplay=false&offerviewer=true&showtitle=true&showbrand=false&start=0&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay"></iframe>
+
 ## 📚 Learning Goals 📚
 
 - Differentiate between a static and dynamic website
@@ -37,7 +39,7 @@ A full-stack developer whose responsibility is to work on both the front-end and
 
 In what context have we defined things as client vs. server?
 
-Discuss with your neighbor your hypothesis, and we'll return to this question later.
+Write down your hypothesis, and we'll return to this question later.
 
 ### Nota Bene: "Front-end"
 
@@ -53,9 +55,9 @@ We can reframe our understanding of the request-response cycle in this way. When
 
 The web server who receives that request processes it, and then sends back a response. We've seen through APIs responses that come back as JSON. These web servers will give back a response that is something the browser can display as a website.
 
-<details>
+<details style="max-width: 700px; margin: auto;">
   <summary>
-    With this in mind, let's return to an earlier question: why would front-end development, or code that executes from the browser, be called "client-side," and why would back-end development, or code that executes from a web server, be called "server-side"?
+    With this in mind, let's return to an earlier question: *Why would front-end development, or code that executes from the browser, be called "client-side," and why would back-end development, or code that executes from a web server, be called "server-side"?*
   </summary>
 
   The request-response cycle defines that the client makes a request, and the server receives the request and gives back a response.
@@ -112,6 +114,128 @@ Try inspecting the code on some of these websites!
 - Huge, complex web apps (dynamic sites) are mostly JavaScript, and actually some are even very self-aware about Chrome Dev Tools! https://www.facebook.com/
 
 We will absolutely get deeper into these tools soon enough, but for now, we'll use it to prove to ourselves that we can see _something_.
+
+## Comprehension Questions
+
+<!-- >>>>>>>>>>>>>>>>>>>>>> BEGIN CHALLENGE >>>>>>>>>>>>>>>>>>>>>> -->
+<!-- Replace everything in square brackets [] and remove brackets  -->
+
+### !challenge
+
+* type: multiple-choice
+* id: 79187cd4-ddc2-46d1-8c04-8ec253709f15
+* title: Front-End-Development
+* points: 1
+* topics: html/css
+
+##### !question
+
+Front-end Development describes...
+
+##### !end-question
+
+##### !options
+
+* Writing code which executes on the **server.**
+* Writing code which executes in the **browser.**
+* Writing code which executes **both** on the browser and server.
+
+##### !end-options
+
+##### !answer
+
+* Writing code which executes in the **browser.**
+
+##### !end-answer
+
+<!-- other optional sections -->
+<!-- !hint - !end-hint (markdown, users can see after a failed attempt) -->
+<!-- !rubric - !end-rubric (markdown, instructors can see while scoring a checkpoint) -->
+<!-- !explanation - !end-explanation (markdown, students can see after answering correctly) -->
+
+### !end-challenge
+
+<!-- ======================= END CHALLENGE ======================= -->
+
+<!-- >>>>>>>>>>>>>>>>>>>>>> BEGIN CHALLENGE >>>>>>>>>>>>>>>>>>>>>> -->
+<!-- Replace everything in square brackets [] and remove brackets  -->
+
+### !challenge
+
+* type: multiple-choice
+* id: 1445bc2a-6ac7-44b2-b3d7-0785926ddcb9
+* title: Back-end Development describes
+* points: 1
+* topics: html/css
+
+##### !question
+
+Back-end Development describes...
+
+##### !end-question
+
+##### !options
+
+* Writing code which executes on the **server.**
+* Writing code which executes in the **browser.**
+* Writing code which executes **both** on the browser and server.
+
+##### !end-options
+
+##### !answer
+
+* Writing code which executes on the **server.**
+
+##### !end-answer
+
+<!-- other optional sections -->
+<!-- !hint - !end-hint (markdown, users can see after a failed attempt) -->
+<!-- !rubric - !end-rubric (markdown, instructors can see while scoring a checkpoint) -->
+<!-- !explanation - !end-explanation (markdown, students can see after answering correctly) -->
+
+### !end-challenge
+
+<!-- ======================= END CHALLENGE ======================= -->
+
+<!-- >>>>>>>>>>>>>>>>>>>>>> BEGIN CHALLENGE >>>>>>>>>>>>>>>>>>>>>> -->
+<!-- Replace everything in square brackets [] and remove brackets  -->
+
+### !challenge
+
+* type: multiple-choice
+* id: 102861b2-b7f4-4fda-995e-92ff99f135bf
+* title: Full Stack Development describes
+* points: 1
+* topics: html/css
+
+##### !question
+
+Full Stack Development describes...
+
+##### !end-question
+
+##### !options
+
+* Writing code which executes on the **server.**
+* Writing code which executes in the **browser.**
+* Writing code which executes **both** on the browser and server.
+
+##### !end-options
+
+##### !answer
+
+* Writing code which executes **both** on the browser and server.
+
+##### !end-answer
+
+<!-- other optional sections -->
+<!-- !hint - !end-hint (markdown, users can see after a failed attempt) -->
+<!-- !rubric - !end-rubric (markdown, instructors can see while scoring a checkpoint) -->
+<!-- !explanation - !end-explanation (markdown, students can see after answering correctly) -->
+
+### !end-challenge
+
+<!-- ======================= END CHALLENGE ======================= -->
 
 ## 🔑 Key Takeaway
 
