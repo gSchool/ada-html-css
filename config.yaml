@@ -43,5 +43,9 @@ Standards:
         Path: /02-css/intro-to-css.md
       -
         Type: Lesson
+        UID: 8640af9d-e8e5-4245-bc5b-0d70c58b9e4f
+        Path: /02-css/scrimba-css-grid.md
+      -
+        Type: Lesson
         UID: c3be408f-5144-4fb4-8f78-1b5a80e58673
         Path: /02-css/layout-with-css-grid.md
