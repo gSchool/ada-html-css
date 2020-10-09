@@ -1,6 +1,11 @@
 # CSS {  display: intro; }
 
+<iframe src="https://adaacademy.hosted.panopto.com/Panopto/Pages/Embed.aspx?pid=e6da5131-2f1a-4021-a25f-ac4b0188ab35&autoplay=false&offerviewer=true&showtitle=true&showbrand=false&start=0&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay"></iframe>
+
 ## 📚 Learning Goals 📚
+
+By the end of this lesson we should be able to...
+
 - Identify parts of CSS Syntax
 - Apply CSS styles to HTML
 - Use selectors to target specific elements to add custom style
@@ -54,15 +59,13 @@ The following is also true:
 
 **Exercise:** What does the above CSS example do?
 
-<details>
+<details style="max-width: 700px; margin: auto">
+  <summary>
+    Check your answers!
+  </summary>
 
-<summary>
-  Check your answers!
-</summary>
-
-1. The first rule-set selects all `h1` elements on the page. It says that their color (text color) should be orange. It says that their typeface is Helvetica, or a sans-serif typeface if Helvetica is not available. (Details for this are determined by the `font-family` property)
-2. The second rule-set selects all `p` elements on the page. It says that their text color should be gray. It says that all of the text inside of these elements should be justify-aligned.
-
+  1. The first rule-set selects all `h1` elements on the page. It says that their color (text color) should be orange. It says that their typeface is Helvetica, or a sans-serif typeface if Helvetica is not available. (Details for this are determined by the `font-family` property)
+  2. The second rule-set selects all `p` elements on the page. It says that their text color should be gray. It says that all of the text inside of these elements should be justify-aligned.
 </details>
 
 ### Code Style
@@ -116,7 +119,7 @@ It should have the following attributes:
 1. Observe that the styles are not applied
 1. Change your HTML page so that it loads your external stylesheet. Make sure it is in the `<head>` tag, and not the `<body>`
 1. Refresh your page and observe the styles being applied
-1. If they are not applied, check the following with a neighbor:
+2. If they are not applied, check the following:
     - The link tag in the head of the HTML file is going to the right relative path (where is your `index.html` located in relationship to your `style.css` file?)
     - Your CSS syntax is valid, and is targeting elements that exist
 
@@ -130,11 +133,13 @@ For example, I want to change my font to be larger. I could google 'css change f
 
 
 ## Best Practices
+
 - CSS should be in it's own .css file
 - Declaration blocks should have a line break between declarations
 - Keep all styles for a selector in one rule-set
 
 ## Vocab ✅
+
 - Markup language
 - Element
 - Declaration
@@ -143,8 +148,10 @@ For example, I want to change my font to be larger. I could google 'css change f
 - Rule-set
 
 ## 🔑 Key Takeaway
+
 Use CSS to define styles for your documents. CSS declarations should always be kept in a separate file. In future discussions, we will explore how we can use CSS for layout modification.
 
 ### Additional Resources
+
 [MDN CSS Syntax](https://developer.mozilla.org/en-US/docs/Web/CSS/Syntax)  
 [MDN CSS Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference)
