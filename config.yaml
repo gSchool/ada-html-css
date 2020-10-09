@@ -45,3 +45,32 @@ Standards:
         Type: Lesson
         UID: c3be408f-5144-4fb4-8f78-1b5a80e58673
         Path: /02-css/layout-with-css-grid.md
+      -
+        Type: Lesson
+        UID: 8dc396ed-dba1-4b65-8212-c17854b0426d
+        Path: /02-css/box-model.md
+      -
+        Type: Lesson
+        UID: 1df89399-bfc1-4e31-b338-f48281adb12f
+        Path: /02-css/cascade-inheritance.md
+      -
+        Type: Lesson
+        UID: b17bdbcd-860c-4da8-9e80-07d904b10baf
+        Path: /02-css/css-selectors.md
+      -
+        Type: Lesson
+        UID: 22818cee-d609-472c-9644-763a76a81ae4
+        Path: /02-css/dev-tools-into-default-styles.md
+      -
+        Type: Lesson
+        UID: 9ad7297a-fb87-4e00-8409-f859a4c4971d
+        Path: /02-css/flexbox-intro.md
+      -
+        Type: Lesson
+        UID: 6258d794-f49c-4b98-95d6-b2cd05d3a221
+        Path: /02-css/specificity-practice.md
+      -
+        Type: Lesson
+        UID: 71d73f91-152b-4f29-be1d-b6bb4631969e
+        Path: /02-css/vision-accessibility.md
+
