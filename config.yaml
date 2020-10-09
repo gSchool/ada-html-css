@@ -47,6 +47,7 @@ Standards:
         Path: /02-css/layout-with-css-grid.md
       -
         Type: Lesson
+<<<<<<< HEAD
         UID: 8dc396ed-dba1-4b65-8212-c17854b0426d
         Path: /02-css/box-model.md
       -
@@ -73,4 +74,12 @@ Standards:
         Type: Lesson
         UID: 71d73f91-152b-4f29-be1d-b6bb4631969e
         Path: /02-css/vision-accessibility.md
+=======
+        UID: 9b9d4a6c-aa90-4a08-ae76-762714d68d09
+        Path: /02-css/flexbox-vs-grid.md
+      -
+        Type: Lesson
+        UID: e613f685-f033-4815-8bcc-97e22b7f5e31
+        Path: /02-css/css-layout-display.md
+>>>>>>> 777f30d6c579e651dc252b0c2522769806f9e89d
 
