@@ -110,30 +110,95 @@ You have to look at the minimum space spanning from the top to the bottom of the
 
 <!-- ======================= END CHALLENGE ======================= -->
 
-<details style="max-width: 700px; margin: auto;">
-  <summary>
-    Are all columns equally sized? In CSS Grid, not every column needs to be the same width
-  </summary>
+<!-- >>>>>>>>>>>>>>>>>>>>>> BEGIN CHALLENGE >>>>>>>>>>>>>>>>>>>>>> -->
+<!-- Replace everything in square brackets [] and remove brackets  -->
+
+### !challenge
+
+* type: multiple-choice
+* id: 150e2948-b1a9-45e0-9145-7b32f042dbf7
+* title: Evenly spaced columns?
+* points: 1
+* topics: css-grid
+
+##### !question
+
+Are all columns equally sized? In CSS Grid, not every column needs to be the same width.
+
+##### !end-question
+
+##### !options
+
+* Yes
+* No
+* Who can tell?
+
+##### !end-options
+
+##### !answer
+
+* No
+
+##### !end-answer
+
+<!-- other optional sections -->
+<!-- !hint - !end-hint (markdown, users can see after a failed attempt) -->
+<!-- !rubric - !end-rubric (markdown, instructors can see while scoring a checkpoint) -->
+##### !explanation
 
   The columns are **not** all the same size.
-</details>
 
-<details style="max-width: 700px; margin: auto;">
-  <summary>
-    How many rows are there in the layout? How many are defined on the _grid container_?
-  </summary>
-  
+
+##### !end-explanation
+
+### !end-challenge
+
+<!-- ======================= END CHALLENGE ======================= -->
+
+<!-- >>>>>>>>>>>>>>>>>>>>>> BEGIN CHALLENGE >>>>>>>>>>>>>>>>>>>>>> -->
+<!-- Replace everything in square brackets [] and remove brackets  -->
+
+### !challenge
+
+* type: multiple-choice
+* id: 14e9b1ef-0b1e-4d20-b647-47474bba9576
+* title: [text, a short question title]
+<!-- * points: [1] (optional, the number of points for scoring as a checkpoint) -->
+<!-- * topics: [python, pandas] (optional the topics for analyzing points) -->
+
+##### !question
+
+How many rows are there in the layout? How many are defined on the _grid container_?
+
+##### !end-question
+
+##### !options
+
+* 3
+* 4
+* 5
+* 6
+
+##### !end-options
+
+##### !answer
+
+* 5
+
+##### !end-answer
+
+<!-- other optional sections -->
+<!-- !hint - !end-hint (markdown, users can see after a failed attempt) -->
+<!-- !rubric - !end-rubric (markdown, instructors can see while scoring a checkpoint) -->
+##### !explanation
+
   5 rows
-</details>
 
-<details style="max-width: 700px; margin: auto;">
-  <summary>
-    Are all rows equally sized? In CSS Grid, not every row needs to be the same height
-  </summary>
+##### !end-explanation
 
-  No each row is not the same size.
-</details>
+### !end-challenge
 
+<!-- ======================= END CHALLENGE ======================= -->
 
 **Pick three different grid items, answer the following:**
 
