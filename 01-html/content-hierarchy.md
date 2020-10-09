@@ -1,9 +1,13 @@
 # Sectioning Elements
 
+<iframe src="https://adaacademy.hosted.panopto.com/Panopto/Pages/Embed.aspx?pid=16809b8f-c1a0-41d2-be36-ac4b0170e4e8&autoplay=false&offerviewer=true&showtitle=true&showbrand=false&start=0&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay"></iframe>
 
 ## 📚 Learning Goals 📚
-- Can organize content using semantic sectioning tags
-- Know why we organize content with semantic sectioning tags
+
+By the end of this lesson we should be able to...
+
+- Organize content using semantic sectioning tags
+- Explain why we organize content with semantic sectioning tags
 
 ## What are Sectioning Elements
 HTML has sectioning elements that allow you to organize your HTML document into logical topical sections.
@@ -32,10 +36,15 @@ Below are tags that group elements together.
 
   <main></main>
 ```
+
 **Think, Pair, Share**
+
 Take some time to research how to use each of the above tags. Then discuss with your neighbor(s). And then high five each other.
 
+A good way to search for these tags is to type into Google:  `MDN <ELEMENT> tag`, for example `MDN aside tag`.  This way you will get the Mozilla Developer Network as your 1st result.
+
 ## Organize Content with Sectioning Elements
+
 Sectioning elements wrap around the elements we have already been working with. Organizing elements into sectioning elements will also become useful as we start to style the layout of our webpages.
 
 Here are a couple of diagrams of how these sectioning elements might be laid out on a webpage.   
@@ -44,6 +53,7 @@ Here are a couple of diagrams of how these sectioning elements might be laid out
 
 
 ## Element Relationships
+
 When elements become nested inside of each other they start to form relationships.
 - An element that is inside of another is a _child_ element
 - The element wrapping a child is its _parent_
@@ -53,6 +63,7 @@ A visual diagram of elements relationships to each other:
 ![Element Relationship Diagram](imgs/content-hierarchy-diagram.png)
 
 The relationship tree above is modeled from the following code:
+
 ```html
 <body>
   <header>
@@ -72,6 +83,7 @@ The relationship tree above is modeled from the following code:
 
 
 ### Draw a relationship tree for the HTML code below:
+
 ```html
   <body>
 
@@ -124,12 +136,174 @@ The relationship tree above is modeled from the following code:
  </body>
 ```
 
+<!-- >>>>>>>>>>>>>>>>>>>>>> BEGIN CHALLENGE >>>>>>>>>>>>>>>>>>>>>> -->
+<!-- Replace everything in square brackets [] and remove brackets  -->
+
+### !challenge
+
+* type: multiple-choice
+* id: 9cc12488-0a97-459a-a1c3-66139e5849df
+* title: Relationships
+* points: 1
+* topics: html
+
+##### !question
+
+```html
+<footer>
+  <ul>
+    <li><a href="#">Contact</a></li>
+    <li><a href="#">Careers</a></li>
+  </ul>
+</footer>
+```
+
+Looking at the above snippet of code from the example, the `ul` element is the ___ of the `li` elements.
+
+##### !end-question
+
+##### !options
+
+* Child
+* Parent
+* Sibling
+* Unrelated element
+
+##### !end-options
+
+##### !answer
+
+* Parent
+
+##### !end-answer
+
+<!-- other optional sections -->
+<!-- !hint - !end-hint (markdown, users can see after a failed attempt) -->
+<!-- !rubric - !end-rubric (markdown, instructors can see while scoring a checkpoint) -->
+<!-- !explanation - !end-explanation (markdown, students can see after answering correctly) -->
+
+### !end-challenge
+
+<!-- ======================= END CHALLENGE ======================= -->
+
+<!-- >>>>>>>>>>>>>>>>>>>>>> BEGIN CHALLENGE >>>>>>>>>>>>>>>>>>>>>> -->
+<!-- Replace everything in square brackets [] and remove brackets  -->
+
+### !challenge
+
+* type: multiple-choice
+* id: a61b694d-93ae-48d9-b507-80c60a527b85
+* title: Relationships
+* points: 1
+* topics: html
+
+##### !question
+
+```html
+<footer>
+  <ul>
+    <li><a href="#">Contact</a></li>
+    <li><a href="#">Careers</a></li>
+  </ul>
+</footer>
+```
+
+Looking at the above snippet of code from the example, the `ul` element is a ___ of the `footer` element.
+
+##### !end-question
+
+##### !options
+
+* Child
+* Parent
+* Sibling
+* Unrelated element
+
+##### !end-options
+
+##### !answer
+
+* Child
+
+##### !end-answer
+
+<!-- other optional sections -->
+<!-- !hint - !end-hint (markdown, users can see after a failed attempt) -->
+<!-- !rubric - !end-rubric (markdown, instructors can see while scoring a checkpoint) -->
+<!-- !explanation - !end-explanation (markdown, students can see after answering correctly) -->
+
+### !end-challenge
+
+<!-- ======================= END CHALLENGE ======================= -->
+
+<!-- ======================= END CHALLENGE ======================= -->
+
+<!-- >>>>>>>>>>>>>>>>>>>>>> BEGIN CHALLENGE >>>>>>>>>>>>>>>>>>>>>> -->
+<!-- Replace everything in square brackets [] and remove brackets  -->
+
+### !challenge
+
+* type: multiple-choice
+* id: 5eee9c42-a3e3-4954-a378-4c624ec2ba27
+* title: Relationships
+* points: 1
+* topics: html
+
+##### !question
+
+```html
+<footer>
+  <ul>
+    <li><a href="#">Contact</a></li>
+    <li><a href="#">Careers</a></li>
+  </ul>
+</footer>
+```
+
+Looking at the above snippet of code from the example, the two `a` or anchor tags are _____ to each other
+
+##### !end-question
+
+##### !options
+
+* Child
+* Parent
+* Sibling
+* Unrelated elements
+
+##### !end-options
+
+##### !answer
+
+* Unrelated elements
+
+##### !end-answer
+
+<!-- other optional sections -->
+<!-- !hint - !end-hint (markdown, users can see after a failed attempt) -->
+<!-- !rubric - !end-rubric (markdown, instructors can see while scoring a checkpoint) -->
+##### !explanation 
+
+The two elements **do not** share the same parent, so they are unrelated in this context, even though they share the same grandparent.
+
+##### !end-explanation
+
+### !end-challenge
+
+<!-- ======================= END CHALLENGE ======================= -->
+
+
 ## Vocab ✅
+
   - Semantic
   - Sectioning
   - Parent
   - Child
   - Sibling
+
+## Key Takeaway 
+
+Sectioning elements can be used to provide *semantic meaning* to the content they enclose.  Using the approprate sectioning element is important to provide clues for screen reading applications and to other developers reading your code.  When an HTML element encloses another tag it becomes that tag's *parent*.  The enclosed tag is called the *child element*.  When two elements share the same parent they are called *siblings*.  You can draw this type of relationship as a tree structure.
 
 ### Additional Resources
 
