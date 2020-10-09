@@ -1,5 +1,7 @@
 # ❮ Intro to HTML ❯
 
+<iframe src="https://adaacademy.hosted.panopto.com/Panopto/Pages/Embed.aspx?pid=d79b42e5-1d4b-4798-8bd0-ac4b01665b0a&autoplay=false&offerviewer=true&showtitle=true&showbrand=false&start=0&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay"></iframe>
+
 ## Learning Goals
 
 - Understand HTML syntax & vocabulary
@@ -236,7 +238,7 @@ Challenges:
 
 ## Validate your HTML
 
-HTML and browsers that run HTML with broken HTML will not throw exceptions or errors like Ruby will. We can write broken HTML code and nothing will stop us from rendering it-- the browser will do its best to interpret any given HTML.
+HTML and browsers that run HTML with broken HTML will not throw exceptions or errors like Ruby will. **We can write broken HTML code and nothing will stop us from rendering it**-- the browser will do its best to interpret any given HTML.
 
 Validating web documents is an important step which can help improve and ensure their quality. Use this link to see if your HTML is following proper HTML syntax: [Markup Validation Service](https://validator.w3.org/nu/#textarea).
 
