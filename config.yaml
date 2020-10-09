@@ -47,7 +47,10 @@ Standards:
         Path: /02-css/layout-with-css-grid.md
       -
         Type: Lesson
+        UID: 9b9d4a6c-aa90-4a08-ae76-762714d68d09
+        Path: /02-css/flexbox-vs-grid.md
+      -
+        Type: Lesson
         UID: e613f685-f033-4815-8bcc-97e22b7f5e31
         Path: /02-css/css-layout-display.md
 
-        
