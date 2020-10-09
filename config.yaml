@@ -45,3 +45,9 @@ Standards:
         Type: Lesson
         UID: c3be408f-5144-4fb4-8f78-1b5a80e58673
         Path: /02-css/layout-with-css-grid.md
+      -
+        Type: Lesson
+        UID: e613f685-f033-4815-8bcc-97e22b7f5e31
+        Path: /02-css/css-layout-display.md
+
+        
