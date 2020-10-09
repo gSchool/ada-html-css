@@ -225,9 +225,6 @@ Grid works in 2 dimensions
 
 <!-- ======================= END CHALLENGE ======================= -->
 
-- Is it important that items "line up" horizontally and vertically with each other?
-  - Use Grid
-
 <!-- >>>>>>>>>>>>>>>>>>>>>> BEGIN CHALLENGE >>>>>>>>>>>>>>>>>>>>>> -->
 <!-- Replace everything in square brackets [] and remove brackets  -->
 
