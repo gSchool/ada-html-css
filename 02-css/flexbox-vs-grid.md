@@ -1,6 +1,7 @@
 # Flexbox vs CSS Grid
 
 ## Learning Goals
+
 - Understand the strengths of both Flexbox & CSS Grid
 - Be able to decide when to use Flexbox or CSS Grid to solve layout issues
 
@@ -45,6 +46,7 @@ img {
   margin: .5em;
 }
 ```
+
 Flexbox causes the images will line up in the available space left-to-right.  When the screen runs out of space elements will flow to the next line.   In this way Flexbox is _responsive_, the items wrap as needed to fit the available space.  
 
 On a wide screen:
@@ -101,7 +103,7 @@ img {
 }
 ```
 
-You can see a working solution [here](https://codepen.io/adadev/pen/oqbqpY?editors=1100)
+You can see a working solution [in Codepen](https://codepen.io/adadev/pen/oqbqpY?editors=1100)
 
 This example makes as many columns as will both fit and required with a minimum size for a column of `200px` and a maximum column size of `1fr`.
 
@@ -137,13 +139,135 @@ Of course you could also lay out the subregions of the site with Grid as well, b
 
 ## So do I use Flexbox or Grid?
 
-Ask yourself a couple of questions:
-- Do I only need to lay content out by row **or** by column?
-  - Use Flexbox
-- Do I need to control layout with both row **and** column?
-  - Use Grid
-- Is it important that items "line up" horizontally and vertically with each other?
-  - Use Grid
+<!-- >>>>>>>>>>>>>>>>>>>>>> BEGIN CHALLENGE >>>>>>>>>>>>>>>>>>>>>> -->
+<!-- Replace everything in square brackets [] and remove brackets  -->
+
+### !challenge
+
+* type: multiple-choice
+* id: 71c947dd-4ac0-4d5d-93a6-ec3a89bad265
+* title: Flexbox or Grid Q1
+* points: 1
+* topics: css-grid, flexbox
+
+##### !question
+
+If I only need to lay content out by row **or** by column I should use ____.
+
+##### !end-question
+
+##### !options
+
+* Flexbox
+* Grid
+
+##### !end-options
+
+##### !answer
+
+* Flexbox
+  
+##### !end-answer
+
+<!-- other optional sections -->
+<!-- !hint - !end-hint (markdown, users can see after a failed attempt) -->
+<!-- !rubric - !end-rubric (markdown, instructors can see while scoring a checkpoint) -->
+##### !explanation
+
+Flexbox works in only one direction, so it can work well in that case.
+
+##### !end-explanation
+
+### !end-challenge
+
+<!-- ======================= END CHALLENGE ======================= -->
+
+<!-- >>>>>>>>>>>>>>>>>>>>>> BEGIN CHALLENGE >>>>>>>>>>>>>>>>>>>>>> -->
+<!-- Replace everything in square brackets [] and remove brackets  -->
+
+### !challenge
+
+* type: multiple-choice
+* id: 6a0384ce-3239-4458-8a80-53d53fdd6b28
+* title: Flexbox or Grid Q2
+* points: 1
+* topics: css-grid, flexbox
+
+##### !question
+
+If I need to control layout with both row **and** column I should use _____
+
+##### !end-question
+
+##### !options
+
+* Flexbox
+* Grid
+
+##### !end-options
+
+##### !answer
+
+* Grid
+
+##### !end-answer
+
+<!-- other optional sections -->
+<!-- !hint - !end-hint (markdown, users can see after a failed attempt) -->
+<!-- !rubric - !end-rubric (markdown, instructors can see while scoring a checkpoint) -->
+##### !explanation
+
+Grid works in 2 dimensions
+
+##### !end-explanation
+
+### !end-challenge
+
+<!-- ======================= END CHALLENGE ======================= -->
+
+<!-- >>>>>>>>>>>>>>>>>>>>>> BEGIN CHALLENGE >>>>>>>>>>>>>>>>>>>>>> -->
+<!-- Replace everything in square brackets [] and remove brackets  -->
+
+### !challenge
+
+* type: multiple-choice
+* id: 5c97901d-939e-4281-aaaf-455f92de930c
+* title: Flexbox or Grid Q3
+* points: 1
+* topics: css-grid, flexbox
+
+##### !question
+
+If it is important that items "line up" horizontally and vertically with each other I should use _____
+
+##### !end-question
+
+##### !options
+
+* Flexbox
+* Grid
+
+##### !end-options
+
+##### !answer
+
+* Grid
+
+##### !end-answer
+
+<!-- other optional sections -->
+<!-- !hint - !end-hint (markdown, users can see after a failed attempt) -->
+<!-- !rubric - !end-rubric (markdown, instructors can see while scoring a checkpoint) -->
+##### !explanation
+
+Grid works in 2 dimensions so to line things up both vertically and horizontally requires grid.
+
+##### !end-explanation
+
+### !end-challenge
+
+<!-- ======================= END CHALLENGE ======================= -->
+
 
 ## Conclusions
 
@@ -154,6 +278,7 @@ Ask yourself a couple of questions:
 1.  They work very well **together**.
 
 # Resources
+
 - [MDN Grid & Flexbox](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Relationship_of_Grid_Layout)
 - [The ultimate CSS battle: Grid vs Flexbox](https://hackernoon.com/the-ultimate-css-battle-grid-vs-flexbox-d40da0449faf)
 - [Does CSS Grid Replace Flexbox?](https://css-tricks.com/css-grid-replace-flexbox/)
