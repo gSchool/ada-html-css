@@ -1,4 +1,6 @@
-# Intro to Layout with CSS Grid
+# Reference: Ada CSS Grid Lesson
+
+This lesson is designed as reference or reinforcement material for students learning CSS Grid for layout out content.  You are not required to complete this, but we are placing it here as reference and additional material, should you need it.
 
 ## Learning Goals
 
