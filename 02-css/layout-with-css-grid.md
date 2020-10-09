@@ -1,4 +1,6 @@
-# Intro to Layout with CSS Grid
+# Reference: Ada CSS Grid Lesson
+
+This lesson is designed as reference or reinforcement material for students learning CSS Grid for layout out content.  You are not required to complete this, but we are placing it here as reference and additional material, should you need it.
 
 ## Learning Goals
 
@@ -23,8 +25,8 @@ CSS Grid has the following advantages:
 
 Other solutions to layout include:
 - Proprietary implementations of grids in CSS
-  - Bootstrap
-  - Foundation
+  - [Bootstrap](https://getbootstrap.com/docs/4.0/layout/grid/)
+  - [Foundation](https://get.foundation/sites/docs-v5/components/grid.html)
 - Using combinations of other CSS properties
   - [Layouts using Display](https://github.com/Ada-Developers-Academy/textbook-curriculum/blob/master/05-html-css/archived/layout-display.md)
   - [Layouts using Floats](https://github.com/Ada-Developers-Academy/textbook-curriculum/blob/master/05-html-css/archived/layout-floats.md)
@@ -57,11 +59,149 @@ Let's look at a slightly abstract example to practice counting columns and rows 
 
 Each rectangular block of color represents one grid item. Answer the following questions:
 
-- How many columns are there in the layout? How many are defined on the _grid container_?
-  - Are all columns equally sized? In CSS Grid, not every column needs to be the same width
-- How many rows are there in the layout? How many are defined on the _grid container_?
-  - Are all rows equally sized? In CSS Grid, not every row needs to be the same height
-- For three different grid items, answer the following:
+<!-- >>>>>>>>>>>>>>>>>>>>>> BEGIN CHALLENGE >>>>>>>>>>>>>>>>>>>>>> -->
+<!-- Replace everything in square brackets [] and remove brackets  -->
+
+### !challenge
+
+* type: number
+* id: 37e85892-25b0-458b-b93d-308eda30d724
+* title: How many columns are there in the layout?
+* decimal: 0
+* points: 1
+* topics: css, css-grid
+
+##### !question
+
+How many columns are there in the layout?
+
+##### !end-question
+
+##### !placeholder
+
+How many columns?
+
+##### !end-placeholder
+
+##### !answer
+
+9
+
+##### !end-answer
+
+<!-- other optional sections -->
+##### !hint
+
+How many smaller columns can span the entire height of the page.
+
+**Hint** It's more than 7 and less than 12 columns
+
+##### !end-hint
+<!-- !rubric - !end-rubric (markdown, instructors can see while scoring a checkpoint) -->
+##### !explanation
+
+You have to look at the minimum space spanning from the top to the bottom of the page.  Take a look at the grid solution below.  We have highlighted in red the grid lines defined by the CSS.  For any vertical line in the grid it has to have a matching grid line.  This forms 9 columns.
+
+![Abstract CSS Grid Layout Answer](./imgs/css-grid-abstract-example-answer.png)
+
+##### !end-explanation
+
+### !end-challenge
+
+<!-- ======================= END CHALLENGE ======================= -->
+
+<!-- >>>>>>>>>>>>>>>>>>>>>> BEGIN CHALLENGE >>>>>>>>>>>>>>>>>>>>>> -->
+<!-- Replace everything in square brackets [] and remove brackets  -->
+
+### !challenge
+
+* type: multiple-choice
+* id: 150e2948-b1a9-45e0-9145-7b32f042dbf7
+* title: Evenly spaced columns?
+* points: 1
+* topics: css-grid
+
+##### !question
+
+Are all columns equally sized? In CSS Grid, not every column needs to be the same width.
+
+##### !end-question
+
+##### !options
+
+* Yes
+* No
+* Who can tell?
+
+##### !end-options
+
+##### !answer
+
+* No
+
+##### !end-answer
+
+<!-- other optional sections -->
+<!-- !hint - !end-hint (markdown, users can see after a failed attempt) -->
+<!-- !rubric - !end-rubric (markdown, instructors can see while scoring a checkpoint) -->
+##### !explanation
+
+  The columns are **not** all the same size.
+
+
+##### !end-explanation
+
+### !end-challenge
+
+<!-- ======================= END CHALLENGE ======================= -->
+
+<!-- >>>>>>>>>>>>>>>>>>>>>> BEGIN CHALLENGE >>>>>>>>>>>>>>>>>>>>>> -->
+<!-- Replace everything in square brackets [] and remove brackets  -->
+
+### !challenge
+
+* type: multiple-choice
+* id: 14e9b1ef-0b1e-4d20-b647-47474bba9576
+* title: [text, a short question title]
+<!-- * points: [1] (optional, the number of points for scoring as a checkpoint) -->
+<!-- * topics: [python, pandas] (optional the topics for analyzing points) -->
+
+##### !question
+
+How many rows are there in the layout? How many are defined on the _grid container_?
+
+##### !end-question
+
+##### !options
+
+* 3
+* 4
+* 5
+* 6
+
+##### !end-options
+
+##### !answer
+
+* 5
+
+##### !end-answer
+
+<!-- other optional sections -->
+<!-- !hint - !end-hint (markdown, users can see after a failed attempt) -->
+<!-- !rubric - !end-rubric (markdown, instructors can see while scoring a checkpoint) -->
+##### !explanation
+
+  5 rows
+
+##### !end-explanation
+
+### !end-challenge
+
+<!-- ======================= END CHALLENGE ======================= -->
+
+**Pick three different grid items, answer the following:**
+
   - What column line # does this grid item start at?
   - What column line # does this grid item end at?
   - How many columns does this grid item span?
@@ -133,7 +273,6 @@ Let's take a look at one way we'd likely write this HTML, and its accompanying C
 }
 ```
 
-
 We've set up CSS Grid using `display: grid;` on our grid container, but we don't see it working yet.
 
 ## Grid Template
@@ -198,6 +337,7 @@ CSS Grid lets us use one specific unit of measurement that we can't use anywhere
 Fractional units are relative units: After all other kinds of units are measured, fractional units take the remaining space and calculate their size relative to other fractional units. In other words, they form ratios.
 
 Consider [this Codepen using fractional units](https://codepen.io/adadev/pen/xWKJdz?editors=1100) on different definitions of `grid-template-columns` on different grid containers. Answer the following questions:
+
 - Which of these examples mixes fractional units and other units?
 - Which of these creates equally sized columns?
 - Which of these creates three columns?
@@ -326,17 +466,15 @@ And here it is on a [Codepen.](https://codepen.io/adadev/pen/zWOaNB)
 
 ## Subjects Not Covered In This Lecture
 
-- Grid Template Areas
-- Grid Tracks
-- Gutters
+- [Grid Template Areas](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-areas)
+- [Grid Tracks](https://developer.mozilla.org/en-US/docs/Glossary/Grid_Tracks)
+- [Gutters](https://developer.mozilla.org/en-US/docs/Glossary/Gutters)
 
 CSS Grid is a deep subject with a lot of features! The above features would allow for further customization of your grid, but aren't necessary to make a robust layout.
 
 ## About Browser Compatibility
 
 CSS Grid was introduced only in the past few years. Even so, *every modern browser supports CSS Grid*.
-
-Internet Explorer 11 requires specifying the browser prefix `-ms-display: grid;`.
 
 A lot of information and advice on the Internet uses CSS that does not use CSS Grid, even if CSS Grid may be a better solution for that problem.
 
@@ -348,3 +486,4 @@ To use CSS Grid as a built in solution for making a 2-dimensional layout, you ne
 - [W3 Schools (source of the grid image)](https://www.w3schools.com/css/css_grid.asp)
 - Play around with the implementation of the weird abstract example in the Practice section [on Codepen](https://codepen.io/adadev/pen/oqvdrB?editors=1100)
 - [Article source for "Realistic example"](https://developers.google.com/web/updates/2017/01/css-grid)
+- [Scrimba course on CSS Grid](https://scrimba.com/learn/R8PTE)
