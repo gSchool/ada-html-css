@@ -27,7 +27,7 @@ These are optional questions just to check and verify you can recognize some imp
 
 ##### !question
 
-In the following HTML the `main` element is a _____________.
+In the following CSS the `main` element is a _____________.
 
 ```css
 main {
