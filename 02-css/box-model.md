@@ -10,6 +10,10 @@
 - Understand the difference between block & inline elements
 - Understand the different ways to specify measurements
 
+## Video Lesson
+
+<iframe src="https://adaacademy.hosted.panopto.com/Panopto/Pages/Embed.aspx?pid=da7493e1-9c6e-4bd8-bd9e-ac5300027ea0&autoplay=false&offerviewer=true&showtitle=true&showbrand=false&start=0&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay"></iframe>
+
 ## What is the Box Model
 
 **Every element on a page is a rectangular box.**
