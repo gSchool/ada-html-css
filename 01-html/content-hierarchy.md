@@ -37,11 +37,13 @@ Below are tags that group elements together.
   <main></main>
 ```
 
-**Think, Pair, Share**
+**Independent Research**
 
-Take some time to research how to use each of the above tags. Then discuss with your neighbor(s). And then high five each other.
+Take some time to research how to use each of the above tags. 
 
 A good way to search for these tags is to type into Google:  `MDN <ELEMENT> tag`, for example `MDN aside tag`.  This way you will get the Mozilla Developer Network as your 1st result.
+
+If you can find a study partner to discuss these tags with, even better!
 
 ## Organize Content with Sectioning Elements
 
