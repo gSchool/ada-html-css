@@ -160,7 +160,7 @@ Second, it sends that data over the internet to the address specified by the `<f
 
 * type: multiple-choice
 * id: 2b5edf11-ef2c-4e1e-9383-30e9a04ee6fc
-* title: labels
+* title: What are labels for?
 <!-- * points: [1] (optional, the number of points for scoring as a checkpoint) -->
 topics: html (optional the topics for analyzing points)
 
@@ -183,10 +183,9 @@ True or False: Each form element should have have a corresponding label element.
 
 ##### !end-answer
 
-<!-- other optional sections -->
-<!-- !hint - !end-hint (markdown, users can see after a failed attempt) -->
-<!-- !rubric - !end-rubric (markdown, instructors can see while scoring a checkpoint) -->
-!explanation - Forms will not have corresponding label elements. Each input element within a form should have a corresponding label element.  !end-explanation 
+##### !explanation 
+Forms will not have corresponding label elements. Each input element within a form should have a corresponding label element.  
+##### !end-explanation 
 
 ### !end-challenge
 
@@ -225,10 +224,9 @@ Looking back at the HTML form we created above, what kind of HTTP request do you
 
 ##### !end-answer
 
-<!-- other optional sections -->
-!hint - Check out the "method" attribute !end-hint 
-<!-- !rubric - !end-rubric (markdown, instructors can see while scoring a checkpoint) -->
-!explanation - That's right! The "method" attribute on the HTML form defines what type of HTTP request will be made when the "submit" button is clicked. For now, the forms we create will always make post requests. This is by far the most common method for a form to use.  !end-explanation 
+##### !explanation 
+That's right! The "method" attribute on the HTML form defines what type of HTTP request will be made when the "submit" button is clicked. For now, the forms we create will always make post requests. This is by far the most common method for a form to use.  
+##### !end-explanation 
 
 ### !end-challenge
 
@@ -266,10 +264,13 @@ If you want to present the user with a multiple-choice question with one correct
 
 ##### !end-answer
 
-<!-- other optional sections -->
-!hint - You may need to do a quick web search about html radio and checkbox input types. This isn't explicitly covered in the lesson. !end-hint 
-<!-- !rubric - !end-rubric (markdown, instructors can see while scoring a checkpoint) -->
-!explanation - For radio input types and checkbox input types, each input element corresponds to one possible answer. Radio forces the user to select only one answer while checkboxes allow the user to select none, one, multiple, or all answers. !end-explanation 
+##### !hint 
+ You may need to do a quick web search about html radio and checkbox input types. This isn't explicitly covered in the lesson.
+##### !end-hint 
+
+##### !explanation 
+For radio input types and checkbox input types, each input element corresponds to one possible answer. Radio forces the user to select only one answer while checkboxes allow the user to select none, one, multiple, or all answers. 
+##### !end-explanation 
 
 ### !end-challenge
 

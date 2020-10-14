@@ -30,6 +30,10 @@ Standards:
         Type: Lesson
         UID: 585123cd-449d-4a22-a630-b966f8f88b9e
         Path: /01-html/attributes-classes-ids.md
+      -
+        Type: Lesson
+        UID: c3cc3c12-e244-48ed-971b-d3e254318de8
+        Path: /01-html/html-forms.md
   -
     Title: CSS
     Description: Stylin our sites with CSS
