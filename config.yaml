@@ -89,4 +89,11 @@ Standards:
         Type: Lesson
         UID: e613f685-f033-4815-8bcc-97e22b7f5e31
         Path: /02-css/css-layout-display.md
-
+      -
+        Type: Lesson
+        UID: 84682a0f-8545-4794-8974-28e50bf297b0
+        Path: /02-css/portfolio-site.md
+      -
+        Type: Lesson
+        UID: 54651cab-99cc-40bd-8812-4d4229e5dc99
+        Path: /02-css/selector-activity.md
