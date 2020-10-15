@@ -26,6 +26,7 @@ Historically, _aligning_ items while working with page flow using CSS has been d
 In comes _flexbox_ (stylistically lowercase, sometimes "flex-box", short for Flexible Box Module)!
 
 Flexbox has the following advantages:
+
 1. More intuitive attributes for aligning compared to older CSS solutions (like vertical alignment or evenly spacing elements inside of a container)
 1. More relevant solutions to modern web layouts
 1. Built for responsive design
