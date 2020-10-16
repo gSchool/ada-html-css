@@ -210,17 +210,17 @@ Looking back at the HTML form we created above, what kind of HTTP request do you
 
 ##### !options
 
-* Get
-* Post
-* Patch
-* Put
-* Delete
+* GET
+* POST
+* PATCH
+* PUT
+* DELETE
 
 ##### !end-options
 
 ##### !answer
 
-* Post
+* POST
 
 ##### !end-answer
 
