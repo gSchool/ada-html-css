@@ -24,7 +24,6 @@ The attributes on the `<form>` tell us things about the whole form, like what ty
 - `action="some-URL"`: To what URL should we send the data when the form is submitted?
 - `method="post"`: What HTTP verb should we use for the data? For right now, this will always be `post`.
 
-Both of these attributes are necessary, but they won't make much sense until we've started working with web servers. For now, we will give you the values to use for both `action` and `method`.
 
 Here's what it would look like in a web page:
 
@@ -62,7 +61,7 @@ Another useful attribute for `type="text"` is `placeholder`, which is used to gi
 
 There's one special type of `<input>` element we should discuss: `<input type="submit">`. This creates a submit button! Almost every form you build will include one of these.
 
-Let's add a few `<input>` elements to our email signup form. Since `<input>` is an inline-block element, we'll wrap each in a `<div>` to force line-breaks (this is a common pattern in the wild).
+Let's add a few `<input>` elements to our email signup form. Since `<input>` is an inline-block element, we'll wrap each in a `<div>` to force line-breaks. (This is a common pattern in the wild.)
 
 ```html
 <h1>Sign up for the Ada newsletter</h1>
@@ -152,6 +151,131 @@ Second, it sends that data over the internet to the address specified by the `<f
 
 ![Form Submission](imgs/form_submit_workflow.png)
 
+## Quiz Time!
+
+<!-- >>>>>>>>>>>>>>>>>>>>>> BEGIN CHALLENGE >>>>>>>>>>>>>>>>>>>>>> -->
+<!-- Replace everything in square brackets [] and remove brackets  -->
+
+### !challenge
+
+* type: multiple-choice
+* id: 2b5edf11-ef2c-4e1e-9383-30e9a04ee6fc
+* title: What are labels for?
+<!-- * points: [1] (optional, the number of points for scoring as a checkpoint) -->
+topics: html (optional the topics for analyzing points)
+
+##### !question
+
+True or False: Each form element should have have a corresponding label element.
+
+##### !end-question
+
+##### !options
+
+* True
+* False
+
+##### !end-options
+
+##### !answer
+
+* False
+
+##### !end-answer
+
+##### !explanation 
+Forms will not have corresponding label elements. Each input element within a form should have a corresponding label element.  
+##### !end-explanation 
+
+### !end-challenge
+
+<!-- ======================= END CHALLENGE ======================= -->
+
+<!-- >>>>>>>>>>>>>>>>>>>>>> BEGIN CHALLENGE >>>>>>>>>>>>>>>>>>>>>> -->
+<!-- Replace everything in square brackets [] and remove brackets  -->
+
+### !challenge
+
+* type: multiple-choice
+* id: 1514f63e-d36d-4ad2-ac60-bb76d37b5900
+* title: What kind of HTTP request do you expect the browser makes when the "submit" button is clicked?
+* topics: html, api 
+<!-- * points: [1] (optional, the number of points for scoring as a checkpoint) -->
+
+##### !question
+
+Looking back at the HTML form we created above, what kind of HTTP request do you expect the browser makes when the "submit" button is clicked?
+
+##### !end-question
+
+##### !options
+
+* GET
+* POST
+* PATCH
+* PUT
+* DELETE
+
+##### !end-options
+
+##### !answer
+
+* POST
+
+##### !end-answer
+
+##### !explanation 
+That's right! The "method" attribute on the HTML form defines what type of HTTP request will be made when the "submit" button is clicked. For now, the forms we create will always make post requests. This is by far the most common method for a form to use.  
+##### !end-explanation 
+
+### !end-challenge
+
+<!-- ======================= END CHALLENGE ======================= -->
+
+<!-- >>>>>>>>>>>>>>>>>>>>>> BEGIN CHALLENGE >>>>>>>>>>>>>>>>>>>>>> -->
+<!-- Replace everything in square brackets [] and remove brackets  -->
+
+### !challenge
+
+* type: multiple-choice
+* id: 4b2308fd-34e2-40a8-8f98-f597facd0ad7
+* title: What to use for multiple-choice / single-select question
+<!-- * points: [1] (optional, the number of points for scoring as a checkpoint) -->
+topics: html (optional the topics for analyzing points)
+
+##### !question
+
+If you want to present the user with a multiple-choice question with one correct answer, which type(s) of input would you use?
+
+##### !end-question
+
+##### !options
+
+* One checkbox
+* Multiple checkboxes (one for each possible answer)
+* Multiple radios (one for each possible answer)
+* One radio
+
+##### !end-options
+
+##### !answer
+
+* Multiple radios (one for each possible answer)
+
+##### !end-answer
+
+##### !hint 
+ You may need to do a quick web search about html radio and checkbox input types. This isn't explicitly covered in the lesson.
+##### !end-hint 
+
+##### !explanation 
+For radio input types and checkbox input types, each input element corresponds to one possible answer. Radio forces the user to select only one answer while checkboxes allow the user to select none, one, multiple, or all answers. 
+##### !end-explanation 
+
+### !end-challenge
+
+<!-- ======================= END CHALLENGE ======================= -->
+
 ## Summary
 
 - Forms are always wrapped in a `<form>` element
@@ -170,4 +294,4 @@ Second, it sends that data over the internet to the address specified by the `<f
 - [MDN Input Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input)
 - [MDN Form Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form)
 - [MDN Label Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/label)
-- [SO on why `<textarea>` isn't `<input type="textarea">`](https://stackoverflow.com/questions/5637326/why-isnt-textarea-an-inputtype-textarea)
+- [StackOverflow on why `<textarea>` isn't `<input type="textarea">`](https://stackoverflow.com/questions/5637326/why-isnt-textarea-an-inputtype-textarea)
