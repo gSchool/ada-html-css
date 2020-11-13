@@ -101,3 +101,7 @@ Standards:
         Type: Lesson
         UID: 54651cab-99cc-40bd-8812-4d4229e5dc99
         Path: /02-css/selector-activity.md
+      -
+        Type: Lesson
+        UID: 8d932293-3ad6-40d1-b31f-37ef8c064c51
+        Path: /02-css/css-framework-bootstrap.md
